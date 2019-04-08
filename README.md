@@ -10,3 +10,5 @@ This program gets as input a color image, performs linear scaling in the Luv dom
 scaled image as output.
 Pixel values outside the window are changed. Only pixels within the window are changed.
 The scaling in Luv should stretch only the luminance values and map the smallest L value in the specied window to 0, and the largest L value in the specified window to 100.
+
+Another program performs the scaling in the xyY domain. The scaling should stretch only the luminance (Y) values. In the specified window perform linear scaling that maps the smallest Y value to 0 and the largest Y value to 1.
